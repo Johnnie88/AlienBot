@@ -17,3 +17,12 @@ C:\dev\dev-bot-discord\AlienBot\obj\Debug\net7.0\refint\AlienBot.dll
 C:\dev\dev-bot-discord\AlienBot\obj\Debug\net7.0\AlienBot.pdb
 C:\dev\dev-bot-discord\AlienBot\obj\Debug\net7.0\AlienBot.genruntimeconfig.cache
 C:\dev\dev-bot-discord\AlienBot\obj\Debug\net7.0\ref\AlienBot.dll
+C:\dev\dev-bot-discord\AlienBot\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+C:\dev\dev-bot-discord\AlienBot\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\dev\dev-bot-discord\AlienBot\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\dev\dev-bot-discord\AlienBot\bin\Debug\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\dev\dev-bot-discord\AlienBot\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Json.dll
+C:\dev\dev-bot-discord\AlienBot\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\dev\dev-bot-discord\AlienBot\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\dev\dev-bot-discord\AlienBot\bin\Debug\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\dev\dev-bot-discord\AlienBot\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll

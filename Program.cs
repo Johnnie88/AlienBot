@@ -1,6 +1,4 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-using DSharpPlus;
+﻿using DSharpPlus;
 using DSharpPlus.EventArgs;
 
 internal class Program
@@ -22,7 +20,9 @@ internal class Program
         };
 
         var token = source.Token;
-        await client.ConnectAsync();
+        // await client.ConnectAsync();
+
+        
 
         while (!token.IsCancellationRequested)
         {

@@ -1,0 +1,27 @@
+# .NET Core
+###############################
+## Build artifacts
+bin/
+obj/
+
+## .NET Core
+*.dll
+*.exe
+*.pdb
+*.dll.config
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/\n   \n   # Files and directories to ignore
+# Note: It is recommended to set these files up in your global git ignore settings
+*.UserOptions
+*.vspscc\n   *.vssscc
+*.nuget.props
+*.nuget.targets\n   \n   # MSTest test Results\n   [Dd]ebug/\n   [Rr]elease/
+TestResults/
+
+# Build Results
+[Bb]uild/
+
+# Roslyn cache directory
+# Uncomment line below if you want roslyn cache and referenced DLLs to be included in gitignore file.
+#GlobalCache/\n   ```
