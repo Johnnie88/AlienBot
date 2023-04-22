@@ -1,5 +1,6 @@
 ﻿using DSharpPlus;
 using DSharpPlus.EventArgs;
+using Microsoft.Extensions.Configuration;
 
 internal class Program
 {
@@ -7,8 +8,12 @@ internal class Program
     {
         var source = new CancellationTokenSource();
 
+        var config = new ConfigurationBuilder()
+        .AddJsonFile("appsettings.json", true)
+        .Build();
+
         var client = new DiscordClient(
-            new DiscordConfiguration { Token = "MY TOKEN", TokenType = TokenType.Bot }
+            new DiscordConfiguration { Token = config["discordToken"], TokenType = TokenType.Bot }
         );
 
         client.MessageCreated += async (DiscordClient sender, MessageCreateEventArgs e) =>
@@ -21,8 +26,6 @@ internal class Program
 
         var token = source.Token;
         // await client.ConnectAsync();
-
-        
 
         while (!token.IsCancellationRequested)
         {
